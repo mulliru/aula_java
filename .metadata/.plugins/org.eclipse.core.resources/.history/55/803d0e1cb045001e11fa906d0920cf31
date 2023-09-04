@@ -1,0 +1,33 @@
+package br.com.fiap.beans;
+
+public class Cliente {
+	
+	// visibilidade, tipo de variavel
+	private String nome;
+	private int idade;
+	private double valor;
+	
+	// Setters (entrada)
+	public void setNome(String nome) {
+	   this.nome = nome;
+	}
+	
+	public void setIdade(Int idade) {
+		this.idade = idade;
+		
+	}
+	
+	// Getters (saida)
+	
+	public String getNome(String nome) {
+		return nome;
+	}
+	
+
+	public Int getIdade(Int idade) {
+		return idade;
+	}
+
+	
+	
+}
